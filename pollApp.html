@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polling App</title>
+    <link rel="stylesheet" href="Project/styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a Poll</h1>
+
+        <!-- Create Poll Form -->
+        <div class="create-poll">
+            <input type="text" id="pollTitle" placeholder="Enter Poll Question" />
+            <input type="text" id="option1" placeholder="Option 1" />
+            <input type="text" id="option2" placeholder="Option 2" />
+            <input type="text" id="option3" placeholder="Option 3" />
+            <input type="text" id="option4" placeholder="Option 4" />
+            <button onclick="createPoll()">Create Poll</button>
+        </div>
+
+        <h2>All Polls</h2>
+        <div id="pollsContainer"></div>
+    </div>
+
+    <script src="Project/script1.js"></script>
+</body>
+</html>
